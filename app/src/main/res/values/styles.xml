@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="CircularButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/circular_std_bold</item>
+        <item name="android:letterSpacing">0.07</item>
+    </style>
+    <style name="CircularActionBarStyle" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.Material3.ActionBar.Title">
+        <item name="android:fontFamily">@font/circular_std_bold</item>
+    </style>
+    <style name="MySnackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">#ECECEC</item>
+    </style>
+    <style name="MySnackbar.Text" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_theme</item>
+    </style>
+</resources>

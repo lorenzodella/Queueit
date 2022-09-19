@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/checkmark_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/anim_check_mark"
+        app:lottie_autoPlay="true"
+        app:lottie_scale="0.4"
+        app:lottie_repeatMode="reverse"
+        app:lottie_repeatCount="1"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

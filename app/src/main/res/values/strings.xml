@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Queueit</string>
+    <string name="taptoscan">clicca l\'icona per scannerizzare il QR code</string>
+    <string name="login">Login effettuato</string>
+    <string name="logout">Login non effettuato</string>
+    <string name="shared">Token condiviso</string>
+    <string name="lastupdate">In riproduzione:\n(ultimo aggiornamento </string>
+    <string name="logout_alert">Per completare la procedura di logout premi \"Non sei tu?\" nella scermata seguente.</string>
+    <string name="default_logout">Effettua il login o scannerizza un token QR per cominciare</string>
+    <string name="default_login">Cerca una canzone per aggiungerla alla coda di</string>
+</resources>
